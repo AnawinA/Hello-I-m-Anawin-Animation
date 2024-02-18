@@ -20,4 +20,4 @@ Javascript DOM:
 
 
 Websites: https://anawina.github.io/Hello-I-m-Anawin-Animation/
-
+> Not yet supported via mobile phone
