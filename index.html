@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Anawin Project Logo.jpg" type="image/x-icon">
+    <title>Anawin A</title>
+</head>
+<body>
+    <nav class="fixed">
+        <nav class="bar barUp">
+            <button id="closeMenu"><div>≡</div></button>
+            <div class="mainBarText"><h3>Anawin</h3></div>
+            &nbsp; <span class="slash"></span>
+            <h4><a href="#supaFirst">Home</a></h4>
+            <h4><a href="">Soon</a></h4>
+            <h4><a href="">About</a></h4>
+            <h4><a href="">???</a></h4>
+            <img src="images/Anawin Project Logo.jpg" alt="Anawin Project Logo" class="favicon">
+            
+        </nav>
+        <progress max="100" value="20" id="percentScroll"></progress><br>
+        <div class="bnw">
+            <button class="bnwBtn">N</button>
+        </div>
+        <div class="flashWhite"></div>
+    </nav>
+    
+    
+    <div></div>
+
+    <header class="onRed">
+        <blockquote class="onRed">
+            <h1 id="#supaFirst" class="introduceSelf">Hello, I am Anawin 
+                <span class=" skillsList "><ul class="skillsList tweenMoveText">
+                    <li>Animation</li>
+                    <li>Coding</li>
+                    <li>Modeling</li>
+                    <li>Animation</li>
+                </ul></span>
+            </h1>
+            <h1 class="niceToMeet">nice to meet you! <span id="underlineInput"></span>.</h1>
+            <input id="inputName" type="text" placeholder="your name">
+            <pre class="">
+                Hi there! Welcome to my website. I'm Anawin, and I love to create animations and share them with the world. 
+                This website is just a hobby of mine, where I can showcase some of my skills and projects. If you want to see more of my work, you can check out my <a href="https://www.youtube.com/channel/UCwEknn0cR6CZt84ZmZROE7w">YouTube channel, Anawin Animation.</a> 
+                I hope you enjoy browsing my site and watching my videos. Thanks for stopping by!
+            </pre>
+            <br>
+        </blockquote>
+        <div class="tilted tilred"></div>
+        <span class="epigram nearTilted">"It's never too late to start something new"</span>
+        <div class="tilted"></div>
+        <div class="tilted until"></div>
+    </header>
+    <div class="blacksite">
+
+
+        <div>
+            <marquee behavior="" direction="">Hi there, I'm Anawin and I'm happy to meet you! I like to chat with new people and learn new things. What are you interested in? Maybe we can find something in common. 😊 (by ChatGPT)</marquee>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora libero fugiat nostrum commodi culpa nemo quo repellendus eum. Quaerat non, necessitatibus ipsa dolore culpa minus tempore sit fuga quis fugiat! Odio, enim. Quo culpa sunt eum ex nisi aliquid inventore, aut architecto perferendis sit explicabo neque asperiores, ad fugit.</p>
+            <img src="images/R.jpg" alt="anawin" width="400px" id="Rjpg">
+            
+
+            <h1>Can you charge my Battery Plz?</h1>
+            <section class="batteryGame ">
+                <div class="batteryG">
+                    <div class="battery">
+                        <div class="batteryLvl">80</div>
+                        <div class="top"></div>
+                    </div>
+                    <div class="top"></div>
+                </div>
+                <button id="chargeBtn">Click to Charge +5%</button>
+                <input type="checkbox" id="ezMode" onclick="changeMode()"><label for="ezMode"> easy mode</label>
+                
+                <h2 class="chargeText"> </h2>
+            </section>
+            <hr>
+            <h1>Normal calculator</h1>
+            <section class="normalCalc">
+
+                <form class="inlineCalc"
+                oninput="
+                aS.value = parseInt(a.value); 
+                aaS.value = parseInt(aa.value);
+                iaS.value = parseInt(a.value) + parseInt(aa.value);
+                ibS.value = parseInt(b.value) + parseInt(bb.value);
+                isMinus.value = minus.checked ? '-' : '+';"
+                onsubmit="result.value = minus.checked ? parseInt(iaS.value) - parseInt(ibS.value) : parseInt(iaS.value) + parseInt(ibS.value);
+                return false">
+                    <fieldset>
+                        <legend>&nbsp;&nbsp; Inline Calculator (using HTML only) &nbsp;&nbsp;</legend>
+                        first: <input type="range" id="a" value="50"><label for="a"> : <output name="aS" for="a">50</output></label>
+                        & <input type="number" id="aa" value="0"><label for="aa"> : <output name="aaS" for="aa">0</output></label><br>
+                        last: <input type="range" id="b" value="50"><label for="b"> : <output name="bS" for="b">50</output></label>
+                        & <input type="number" id="bb" value="0"><label for="bb"> : <output name="bbS" for="bb">0</output></label><br>
+                        <br>
+                        <input type="checkbox" id="minus"><label for="minus">minus?</label><br>
+                        <input type="submit" value="Calculate">
+                        <h3><output name="iaS" for="a aa">0</output>
+                            <output name="isMinus" for="minus">+</output>
+                            <output name="ibS" for="b bb">50</output> =
+                        </h3>
+                        <h2>Result: <output name="result" for="iaS ibS"></output></h2>
+                    
+                         
+                    </fieldset>
+                </form>
+
+                <form>
+
+                </form>
+
+                <!-- <select  id="and">
+                    <optgroup label="normal">
+                        <option value="plus">+ plus</option>
+                        <option value="minus">- minus</option>
+                        <option value="multiply">× multiply</option>
+                        <option value="divide">÷ divide</option>
+                        <option value="not">¬ negate</option>
+                    </optgroup>
+                    <optgroup label="intermediate">
+                        <option value="pow">⋆ pow</option>
+                        <option value="divide">√ divide</option>
+                        <option value="mod">% modulus</option>
+                    </optgroup>
+                </select> -->
+            </section>
+            <hr>
+            <h1>Drag & Drop this heart.</h1>
+            <section class="heartDrop"  >
+                <img src="images/HeartLeft.svg" width="147" alt="heartL" class="HP HPhover" id="HPL" 
+                    draggable="true" ondragstart="drag(event)">
+                <span class="heart">
+                    <div class="insertHeart wink" 
+                        ondragover="allowDrop(event)" ondragleave="noDrop(event)"  ondrop="drop(event)"></div>
+                    <svg id="HPR" width="151" height="258" viewBox="0 0 51 87" fill="none" xmlns="http://www.w3.org/2000/svg" class="HP">
+                        <path d="M25.9397 0C7.47414 -5.19272e-05 3.37069 11.0001 0 17.0001V87C14.069 71 51 52 51 34C51 16 44.4052 5.19272e-05 25.9397 0Z" fill="#C54646"/>
+                    </svg>
+                    <h3 id="thx">Thank you!</h3>
+                </span>
+                <div class="heartEmit"></div>
+                <span class="flashWarn">(flash warning)</span>
+            </section>
+
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
